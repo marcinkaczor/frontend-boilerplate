@@ -1,4 +1,8 @@
-body {
-  background-color: blue;
-  color: white;
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
