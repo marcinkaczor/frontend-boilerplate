@@ -1,8 +1,47 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *:before,
 *:after {
   box-sizing: inherit;
+}
+
+body {
+  background-color: #ffebee;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.container {
+  margin: 64px auto 0px;
+  max-width: 800px;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  font-family: 'Dancing Script', cursive;
+
+  .header__logo {
+    font-size: 2.4rem;
+    font-weight: bold;
+  }
+}
+
+.navigation {
+  font-size: 1.6rem;
+
+  .navigation__list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+
+    .navigation__item {
+      margin-left: 32px;
+    }
+  }
 }
